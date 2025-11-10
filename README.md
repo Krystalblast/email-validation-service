@@ -26,25 +26,6 @@ This is the **MVP version**, created as part of my learning journey in backend d
 - POST /validate — Validate one email  
 - POST /bulk — Upload CSV and validate multiple emails
 
-## 📦 Project Structure
-email-validation-service/
-│
-├── README.md              
-├── requirements.txt       
-│
-├── validator/
-│   ├── core_validator.py  
-│   └── __init__.py
-│
-├── api/
-│   ├── views.py           
-│   ├── urls.py
-│   └── serializers.py
-│
-└── examples/
-    ├── sample.csv         
-    └── result.json        
-
 ## 🔧 Tech Stack
 - Python 3.11+
 - Django 5
